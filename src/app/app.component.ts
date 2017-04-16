@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+
+  name:string = "Robert";
+  array:number[] = [1,2,3,4,5,6,7,8,9,0];
 }
