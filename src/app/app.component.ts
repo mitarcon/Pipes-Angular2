@@ -11,4 +11,5 @@ export class AppComponent {
   array:number[] = [1,2,3,4,5,6,7,8,9,0];
   pi: number = Math.PI;
   numero: number = 0.2345;
+  salary: number = 12345.2;
 }

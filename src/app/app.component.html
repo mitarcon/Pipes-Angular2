@@ -57,6 +57,32 @@
       <td> percent:'2.3-6' </td>
       <td>{{ numero | percent:'2.3-6' }}</td>
     </tr>
+    <tr>
+      <td>{{ salary }}</td>
+      <td> currency </td>
+      <td>{{ salary | currency }}</td>
+    </tr>
+    <tr>
+      <td>{{ salary }}</td>
+      <td> currency:'EUR' </td>
+      <td>{{ salary | currency:'EUR' }}</td>
+    </tr>
+    <tr>
+      <td>{{ salary }}</td>
+      <td> currency:'EUR':true </td>
+      <td>{{ salary | currency:'EUR':true }}</td>
+    </tr>
+    <tr>
+      <td>{{ salary }}</td>
+      <td> currency:'EUR':true:'3.0-0' </td>
+      <td>{{ salary | currency:'EUR':true:'3.0-0' }}</td>
+    </tr>
+    <!-- Ver sin moneda, debo usar el numberPipE -->
+    <tr>
+      <td>{{ salary }}</td>
+      <td> number:'.2-2' </td>
+      <td>{{ salary | number:'.2-2' }}</td>
+    </tr>
   </tbody>
 </table>
 
