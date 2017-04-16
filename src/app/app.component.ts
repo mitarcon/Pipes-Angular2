@@ -12,4 +12,12 @@ export class AppComponent {
   pi: number = Math.PI;
   numero: number = 0.2345;
   salary: number = 12345.2;
+  heroe: any = {
+    nombre: "Wolverine",
+    edad: 500,
+    direccion: {
+      calle: 815,
+      casa: "casa X"
+    }
+  };
 }
