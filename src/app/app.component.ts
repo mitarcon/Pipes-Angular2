@@ -20,4 +20,8 @@ export class AppComponent {
       casa: "casa X"
     }
   };
+  promiseValue = new Promise ( ( resolve, reject ) => {
+
+    setTimeout( () => resolve( 'llego la data' ), 3500 );
+  });
 }
