@@ -24,4 +24,5 @@ export class AppComponent {
 
     setTimeout( () => resolve( 'llego la data' ), 3500 );
   });
+  date = new Date();
 }
