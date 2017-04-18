@@ -7,11 +7,14 @@ import { HttpModule } from '@angular/http';
 // USado para colocar el filtro de fecha ne español, ojo con esto porque usando internacionalizacio nesto puede cambiar
 import { LOCALE_ID } from '@angular/core';
 
+import { CapitalizadoPipe } from './pipes/capitalizado.pipes';
+
 import { AppComponent } from './app.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CapitalizadoPipe
   ],
   imports: [
     BrowserModule,
