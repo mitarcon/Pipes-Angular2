@@ -10,11 +10,13 @@ import { LOCALE_ID } from '@angular/core';
 import { CapitalizadoPipe } from './pipes/capitalizado.pipes';
 
 import { AppComponent } from './app.component';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CapitalizadoPipe
+    CapitalizadoPipe,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,

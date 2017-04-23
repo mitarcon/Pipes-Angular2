@@ -25,5 +25,6 @@ export class AppComponent {
     setTimeout( () => resolve( 'llego la data' ), 3500 );
   });
   date = new Date();
-  capitalizar: String = 'frAncisco JAVIER varelA MarcNo'; 
+  capitalizar: String = 'frAncisco JAVIER varelA MarcNo';
+  urlVideo: String = 'ajLJOhf-WdA';
 }
