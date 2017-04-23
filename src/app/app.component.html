@@ -113,6 +113,17 @@
       <td> capitalizado: false </td>
       <td>{{ capitalizar | capitalizado: false }}</td>
     </tr>
+    <tr>
+      <td>{{ name }}</td>
+      <td>
+        password: {{ active }}
+        <br>
+        <button type="button" class="btn btn-outline-primary" (click) = "active = !active">
+          ON / OFF
+        </button>
+      </td>
+      <td>{{ name | hidepass: active }}</td>
+    </tr>
 
   </tbody>
 </table>

@@ -27,4 +27,5 @@ export class AppComponent {
   date = new Date();
   capitalizar: String = 'frAncisco JAVIER varelA MarcNo';
   urlVideo: String = 'ajLJOhf-WdA';
+  active: boolean = false;
 }

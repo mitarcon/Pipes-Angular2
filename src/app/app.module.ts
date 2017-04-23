@@ -11,12 +11,14 @@ import { CapitalizadoPipe } from './pipes/capitalizado.pipes';
 
 import { AppComponent } from './app.component';
 import { DomseguroPipe } from './pipes/domseguro.pipe';
+import { HidepassPipe } from './pipes/hidepass.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     CapitalizadoPipe,
-    DomseguroPipe
+    DomseguroPipe,
+    HidepassPipe
   ],
   imports: [
     BrowserModule,
